@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="icon" href="https://static.thenounproject.com/png/2038384-200.png" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="main.js"></script> -->
+    <!-- <script src="bootstrap.js"></script> -->
+</head>
+<body>
+    <!-- <h1>Welcome! Good to see you here 😇</h1> -->
+    <div class="wrapper">
+        <header>
+            <div id="page-banner">
+                <h2 class="title"> To-Do List</h2> <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/memo_1f4dd.png" alt="" style="height: 75px; margin-top: 5px;">
+                <h3 id="today" style="font-size: 22px; margin-top: 16px;"></h3>
+            </div>
+       
+        <div id="inputField">
+            <input type="text" id="title" placeholder="  ✍️  Add new items....." style="margin: 20px 0; width: 600px;
+            height: 45px; font-size: 18px; "><button id="add" onclick="newElement()"><i class="fa fa-plus"></i></button>
+        </div>
+    <!-- </header> -->
+    <div class="container">
+        <ul class="todolist" id="todolist">
+           
+           <li id="name" class="name"> 
+               <!-- <span class="close"><i id="delete" class="fa fa-trash"></i></span>  -->
+            </li>
+           <!-- <li>  -->
+               <!-- <span class="close"><i id="delete" class="fa fa-trash"></i></span>  -->
+            <!-- </li> -->
+               <!-- <span style="float: left;"><i class="fa fa-check-square"></i></span>  -->
+        </ul>
+    </div>
+        </header>
+    </div>
+        <div class="footer">
+            <h3>Made with ❤️ by Ritika</h3>
+            <p>This site uses 🍪 to keep track of your tasks</p>
+        </div>
+
+        <script src="main.js"></script>
+</body>
+</html>

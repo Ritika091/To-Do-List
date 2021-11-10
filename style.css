@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%); */
+    /* linear-gradient(to right, #61045f, #aa076b); */
+    /* background-image: url("https://thumbs.dreamstime.com/b/solid-background-gray-textured-fabric-close-up-135407023.jpg"); */
+background-image: url("https://img.freepik.com/free-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?size=626&ext=jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+}
+
+.wrapper{
+    margin: 60px auto;
+    max-width: 830px;
+    width: 100%;
+    height: 490px;
+    /* background: white; */
+    border-radius: 5px;
+    padding: 25px;
+}
+header{
+    /* background: teal; */
+    background: linear-gradient(
+45deg
+, pink, transparent);
+
+}
+/* .container{
+     background: white; 
+} */
+#page-banner{
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+.title{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 30px;
+}
+#inputField{
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+#add{
+    width: 53px;
+    height: 47px;
+    cursor: pointer;
+}
+/* .task{
+    text-align: center;
+    margin: 272px 0;
+    
+} */
+/* .todolist ul{
+    width: 100%;
+    margin-left: 20px;
+    list-style-type: none;
+} */
+.todolist li{
+    list-style-type: none;
+      font-size: 22px;
+      line-height: 3.5rem;
+    letter-spacing: 1px;
+
+    /* background: #ffffff; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.100); */
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+    padding: 0 1rem;
+    /* display: flex; */
+    align-items: center;
+    margin: 1em 1em;
+    z-index: 10;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s;
+    overflow: hidden;
+    
+}
+ 
+.todolist li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 10px;
+    height: 100%;
+    /* background: #aa076b; */
+    /* background: rgb(6, 170, 170); */
+    background: rgb(216, 129, 119);
+    z-index: -1;
+    transition: all .4s;
+}
+.todolist li:hover::before{
+    width: 100%;
+}
+.todolist li:hover{
+    overflow: hidden;
+    color: white;
+}
+.todolist li span{
+    right: -45px; 
+    font-size: 27px;
+    position: absolute;
+    color: #fff;
+    width: 45px;
+    text-align: center;
+    background: red;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+.todolist li:hover span{
+    right: 0px;
+
+}
+ul li.name {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+/* ul li.name::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+   */
+.footer{
+    text-align: center;
+    /* position: fixed; */
+}
+.footer h3{
+    font-size: 22px;
+}
+.footer p{
+    font-size: 18px;
+}
